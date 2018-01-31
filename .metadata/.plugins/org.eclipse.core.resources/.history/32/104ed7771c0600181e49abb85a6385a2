@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<input type="checkbox" name="hobby" value="0">등산
+	<input type="checkbox" name="hobby" value="1">독서
+	<input type="checkbox" name="hobby" value="2">운동
+	<input type="submit" value="전송">
+</body>
+</html>

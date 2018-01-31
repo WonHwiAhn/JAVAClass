@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- action에는 url-pattern을 적어준다. -->
+	<div><a href="http://localhost:8080/ReviewEx/test1">go</a></div>
+	<form action="test1" method="post">
+		<input type="submit" value="Get/Post?">
+	</form>
+</body>
+</html>

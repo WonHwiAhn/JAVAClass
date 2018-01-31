@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- .btn-resendAll {
+	background:url(../images/btn_resendall.png) no-repeat 0 0;
+} -->
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="ms3" method="post">
+		<input type="submit" value="go">
+	</form>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="test5">
+		성별====<br>
+		<input type="radio" name="sex" value="여성" checked>여성 
+		<input type="radio" name="sex" value="남성">남성
+		거주지====<br>
+		<input type="radio" name="sido" value="수도권" checked>수도권<br>
+		<input type="radio" name="sido" value="비수도권">비수도권
+		<input type="submit" value="전송">
+	</form>
+</body>
+</html>

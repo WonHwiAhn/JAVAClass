@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="test5">
+		<input type="radio" value="여성">여성
+		
+	</form>
+</body>
+</html>

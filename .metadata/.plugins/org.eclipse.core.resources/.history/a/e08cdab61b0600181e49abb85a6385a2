@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="170131_GetParameterValues">
+        <property name="context-root" value="170131_GetParameterValues"/>
+        <property name="java-output-path" value="/170131_GetParameterValues/build/classes"/>
+    </wb-module>
+</project-modules>

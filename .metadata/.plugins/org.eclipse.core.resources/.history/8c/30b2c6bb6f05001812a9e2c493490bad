@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="test2" method="post">
+		name: <input name="name">
+		<br>
+		address: <input name="address">
+		<br>
+		<input type="submit" value="go">
+	</form>
+	<hr>
+	<a href="test2?name=john&address=seoul">go</a>
+</body>
+</html>

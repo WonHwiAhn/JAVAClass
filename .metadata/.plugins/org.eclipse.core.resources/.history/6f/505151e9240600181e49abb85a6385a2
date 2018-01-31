@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>	
+	<form>
+		<input type="text" name="id"><br>
+		<input type="password" name="pw"><br>
+		<input type="text" name="userName"><br>
+		<input type="radio" name="sex" value="m" checked>남
+		<input type="radio" name="sex" value="w">여
+		<input type="checkbox" name="hobby" value="0">독서
+		<input type="checkbox" name="hobby" value="1">등산
+		<input type="checkbox" name="hobby" value="2">수영
+		<input type="submit" value="전송">
+	</form>
+</body>
+</html>

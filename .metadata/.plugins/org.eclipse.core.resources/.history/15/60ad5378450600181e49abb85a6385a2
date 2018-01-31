@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>180131_GetServletContextEx</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <context-param>
+  	<param-name>url</param-name>
+  	<param-value>jdbc:oracle:thin:@localhost:1521:orcl</param-value>
+  </context-param>
+  
+  <servlet>
+    <servlet-name>ms1</servlet-name>
+    <servlet-class>kr.co.ca.Test1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ms2</servlet-name>
+    <servlet-class>kr.co.ca.Test2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ms1</servlet-name>
+    <url-pattern>/test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ms2</servlet-name>
+    <url-pattern>/test2</url-pattern>
+  </servlet-mapping>
+</web-app>
+
+<!-- ContextParameter
+	scope: 프로젝트 전체... 어떤 서블릿이든 상관하지 않고 가져다 쓸 수 있음.
+	-web.xml
+	-보안을 보장받으면서, 프로젝트 어디서든 사용하고 싶은 데이터가 있다면, 컨텍스트파라미터를 선언해서 사용하면 됨
+ -->

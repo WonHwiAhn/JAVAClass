@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="test2" method="post">
+		name: <input name="name">
+		<br>
+		address: <input name="address">
+		<br>
+		<input type="submit" value="go">
+	</form>
+	<hr>
+	<a href="test2?name=하이&address=seoul">go</a>
+	
+	<hr style="border:3">
+	
+	<form action="test4" method="post">
+		ID: <input type="text" name="id">
+		<br>
+		PW: <input type="text" name="pw">
+		name: <input name="name">
+		<br>
+		address: <input name="address">
+		<br>
+		<input type="submit" value="가입">
+	</form>
+	<hr>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.btn-resendAll {
+	/* background:url("../images/Penguins.jpg") no-repeat 0 0; */
+	background-image: url("images\Penguins.jpg");
+    background-repeat: no-repeat;
+    }
+</style>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body class="btn-resendAll">
+	<form action="ms3" method="post">
+		<input type="submit" value="go">
+	</form>
+</body>
+</html>

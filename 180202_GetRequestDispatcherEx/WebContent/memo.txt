@@ -1,0 +1,22 @@
+Forwording이란?
+ 컴포넌트 간의 제어권 자동으로 이동 [평상시에는 submit을 이용해 데이터를 수동으로 넘겨야함.]
+
+ Forwording 종류
+ - Dispatcher 방식: O, 일반적으로 포워딩
+                 URL주소가 변형되지 않음.
+                 request 1개.
+ - Redirect 방식 : URL주소가 바뀜
+ html -> servlet
+ servlet -> servlet
+ js -> servlet
+ js -> jsp  etc.
+
+ 언제 사용 forward를 사용하고 dispather를 사용해야하는가?
+ request의 scope와 관련되있다.
+ 
+ dispather ==> request의 데이터를 유지시켜야 할 때 사용!
+ 
+ page(pageContext)
+ request(같은 요청)
+ session(같은 브라우저)
+ context(=application)   ==> 데이터 유지

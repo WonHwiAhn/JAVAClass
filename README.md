@@ -15,7 +15,7 @@ HTTP : 비연결성
 
 [참고사이트](http://yoyojyv.tistory.com/29) 세션과 쿠키 설명
 
-request.getSession(true) --> *scope: 브라우저*
+request.getSession(true) --> **scope: 브라우저**
 			     session객체가 존재하면, 그 존재하는 개체 반환
 	                     만약에 session객체가 없으면, session을 만들어서 반환
 
@@ -33,7 +33,7 @@ request.getSession(false) --> session 객체가 존재하면, 그 존재하는 �
    #### 로그인 후 (이후 서블릿)
    * request.getSession(false) 구현 후 response.sendRedirect("login.jsp");
 
-   *세션 생성
+   * 세션 생성
    HttpSession session = request.getSession();
 
 2. Session에 데이터 바인딩(로그인 처음)
